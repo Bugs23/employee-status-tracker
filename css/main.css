@@ -1,0 +1,57 @@
+ul li {
+  margin: 15px 0 0;
+  color: #8d9aa5;
+  position: relative;
+}
+
+ul.bulleted li {
+  padding-left: 65px;
+}
+
+ul.bulleted li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 10px;
+  padding: 3px 2px 2px;
+  border-radius: 2px;
+  text-align: center;
+  width: 50px;
+}
+
+ul.bulleted .in {
+  color: #5A6772;
+}
+
+ul.bulleted .in:before {
+  content: "IN";
+  background-color: #5fcf80;
+}
+
+ul.bulleted .out {
+  color: #A7B4BF;
+}
+
+ul.bulleted .out:before {
+  content: "OUT";
+  background-color: #ed5a5a;
+}
+
+ul.bulleted .open {
+  color: #5A6772;
+}
+
+ul.bulleted .open:before {
+  content: "OPEN";
+  background-color: #5fcf80;
+}
+
+ul.bulleted .closed {
+  color: #A7B4BF;
+}
+
+ul.bulleted .closed:before {
+  content: "CLOSED";
+  background-color: #ed5a5a;
+}

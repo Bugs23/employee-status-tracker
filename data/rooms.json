@@ -1,0 +1,14 @@
+[
+	{
+		"rname" : "Room 1",
+		"vacancy" : true
+	},
+	{
+		"rname" : "Room 2",
+		"vacancy" : false
+	},
+	{
+		"rname" : "Room 3",
+		"vacancy" : true
+	}
+]
